@@ -45,7 +45,7 @@ body {
 
 /*the hero image*/
 .hero-image {
-  background-image: url("./images/pexels-cup-of-couple-6177606.jpg");
+  background-image: url("portfolio/images/pexels-cup-of-couple-6177606.jpg");
   height: 60%;
   /*position and center image to scale nicely on all screens*/
   background-position: bottom;
