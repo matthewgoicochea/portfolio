@@ -18,8 +18,12 @@ body {
   background: rgb(60, 100, 60);
 }
 
-.nav-image {
-  width: 100%;
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #fff;
 }
 
 .nav-link,
@@ -30,6 +34,13 @@ body {
 .nav-link:hover {
   color: #dddddd;
 }
+
+.nav-container {
+  margin: 0 0;
+  padding: 0;
+}
+
+/*********/
 
 /*
 .parallax {
@@ -87,15 +98,31 @@ section {
   width: 95%;
 }
 
-hr {
+.project-link,
+.project-link:visited {
+  text-decoration: none;
+  color: rgb(60, 100, 60);
+  font-weight: bold;
 }
 
-contact-section {
-  margin-bottom: 0px;
+.project-link:hover {
+  color: rgb(130, 200, 130);
+}
+
+.project-link:active {
+  color: rgb(130, 160, 90);
 }
 
 .project-btn {
   text-decoration: none;
+}
+
+.project-section {
+  background-color: rgb(245, 245, 245);
+}
+
+.contact-section {
+  margin-bottom: 0px;
 }
 
 .contact-link {
@@ -105,6 +132,10 @@ contact-section {
 
 .contact-link:hover {
   color: #dddddd;
+}
+
+.no-wrap {
+  white-space: nowrap;
 }
 
 @media all and (max-width: 812px) {
