@@ -1,3 +1,5 @@
-#Portfolio
+# My Portfolio
 
-[here](https://matthewgoicochea.github.io/portfolio)
+A website built to show the things I've learned on my software engineering journey.
+***
+View it [here](https://matthewgoicochea.github.io/portfolio)!
