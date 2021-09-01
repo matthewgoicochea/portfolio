@@ -2,4 +2,4 @@
 
 A website built to show the things I've learned on my software engineering journey.
 ***
-View it [here](https://matthewgoicochea.github.io/portfolio)!
+View it [here](https://matthewgoicochea.com)!
