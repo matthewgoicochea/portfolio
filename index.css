@@ -2,9 +2,14 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Rockwell";
+  src: url(./fonts/Rockwell.TTF);
+}
+
 html,
 body {
-  font-family: sans-serif;
+  font-family: "Rockwell", sans-serif;
   font-size: 20px;
   text-align: center;
   width: 100%;
