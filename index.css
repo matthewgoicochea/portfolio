@@ -42,7 +42,7 @@ body {
 
 /*the hero image*/
 .hero-image {
-  background-image: url("./pexels-pierre-blaché-3505702.jpg");
+  background-image: url("./pexels-pierre-blache-3505702.jpg");
   height: 60%;
   /*position and center image to scale nicely on all screens*/
   background-position: bottom;
@@ -136,7 +136,7 @@ section {
 
   /*the hero image*/
   .hero-image {
-    background-image: url("./pexels-pierre-blaché-3505702.jpg");
+    background-image: url("./pexels-pierre-blache-3505702.jpg");
     height: 60%;
     /*position and center image to scale nicely on all screens*/
     background-position: bottom;
