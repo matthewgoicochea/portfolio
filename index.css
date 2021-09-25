@@ -1,163 +1,167 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @font-face {
-	font-family: "Rockwell";
-	src: url(./fonts/Rockwell.TTF);
+  font-family: "Rockwell";
+  src: url(./fonts/Rockwell.TTF);
 }
 
 html,
 body {
-	font-family: "Rockwell", sans-serif;
-	font-size: 20px;
-	text-align: center;
-	width: 100%;
-	height: 100%;
-	margin: 0px;
-	padding: 0px;
-	overflow-x: hidden;
+  font-family: "Rockwell", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 .nav {
-	background: rgb(250, 250, 250);
-	height: auto;
+  background: rgb(250, 250, 250);
+  height: auto;
 }
 
 .custom-toggler .navbar-toggler-icon {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#fff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .custom-toggler.navbar-toggler {
-	border-color: #fff;
+  border-color: #fff;
 }
 
 .nav-link,
 .nav-link:visited {
-	color: #fff;
+  color: #fff;
 }
 
 .nav-link:hover {
-	color: #dddddd;
+  color: #dddddd;
 }
 
 .nav-container {
-	margin: 0 0;
-	padding: 0;
+  margin: 0 0;
+  padding: 0;
 }
 
 /*the hero image*/
 .hero-image {
-	background-image: url("./pexels-pierre-blache-3505702.jpg");
-	height: 60%;
-	/*position and center image to scale nicely on all screens*/
-	background-position: bottom;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
+  background-image: url("./pexels-pierre-blache-3505702.jpg");
+  height: 60%;
+  /*position and center image to scale nicely on all screens*/
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 /* Top right text */
 .hero-text {
-	position: absolute;
-	top: 8px;
-	right: 16px;
-	text-align: right;
-	color: rgb(250, 250, 250);
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  text-align: right;
+  color: rgb(250, 250, 250);
 }
 
 .tan-bg {
-	background: rgb(230, 200, 180);
+  background: rgb(230, 200, 180);
 }
 
 .light-bg {
-	background: rgb(250, 250, 250);
+  background: rgb(250, 250, 250);
 }
 
 .text-light {
-	color: #dddddd;
+  color: #dddddd;
 }
 
 .text-steel {
-	color: rgb(92, 98, 100);
+  color: rgb(92, 98, 100);
 }
 
 section {
-	/*padding: 40px 20px 80px 20px;*/
-	padding-top: 6rem;
-	padding-bottom: 6rem;
-	width: 100%;
+  /*padding: 40px 20px 80px 20px;*/
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  width: 100%;
+}
+
+.iphone-screenshot {
+  width: 12rem;
 }
 
 .screenshot {
-	width: 95%;
+  width: 95%;
 }
 
 .project-link,
 .project-link:visited {
-	text-decoration: none;
-	color: rgb(92, 98, 100);
-	font-weight: bold;
+  text-decoration: none;
+  color: rgb(92, 98, 100);
+  font-weight: bold;
 }
 
 .project-link:hover {
-	color: rgb(128, 138, 141);
+  color: rgb(128, 138, 141);
 }
 
 .project-link:active {
-	color: rgb(230, 200, 180);
+  color: rgb(230, 200, 180);
 }
 
 .project-btn {
-	text-decoration: none;
+  text-decoration: none;
 }
 
-.project-section {
-	background-color: rgb(250, 250, 250);
+.skills-section {
+  background-color: rgb(250, 250, 250);
 }
 
 .contact-section {
-	margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .contact-link {
-	color: #fff;
-	text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 .contact-link:hover {
-	color: #dddddd;
+  color: #dddddd;
 }
 
 .no-wrap {
-	white-space: nowrap;
+  white-space: nowrap;
 }
 
 @media all and (max-width: 812px) {
-	section {
-			padding-top: 3rem;
-			padding-bottom: 3rem;
-			width: 100%;
-	}
+  section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+  }
 
-	/*the hero image*/
-	.hero-image {
-			background-image: url("./pexels-pierre-blache-3505702.jpg");
-			height: 60%;
-			/*position and center image to scale nicely on all screens*/
-			background-position: bottom;
-			background-repeat: no-repeat;
-			background-size: cover;
-			position: relative;
-	}
+  /*the hero image*/
+  .hero-image {
+    background-image: url("./pexels-pierre-blache-3505702.jpg");
+    height: 60%;
+    /*position and center image to scale nicely on all screens*/
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
 
-	.hero-text {
-			/*place text in center*/
-			text-align: center;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			color: rgb(250, 250, 250);
-	}
+  .hero-text {
+    /*place text in center*/
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(250, 250, 250);
+  }
 }
